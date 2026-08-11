@@ -710,4 +710,6 @@ async def callbacks(update: Update, context: ContextTypes.DEFAULT_TYPE):
         url = state.get("url")
         if not url:
             await query.edit_message_text(
+    "..."
+)
          
