@@ -19,4 +19,4 @@ RUN pip install --no-cache-dir --upgrade pip && \
 
 COPY telegram_media_bot.py .
 
-CMD ["python", "telegram_media_bot.py"]
+CMD ["python", "python telegram_media_bot.py"]
